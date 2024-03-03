@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotolog</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="JS.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Aleo:ital@1&family=Almarai:wght@700&family=Fjalla+One&family=Rock+3D&display=swap" rel="stylesheet">
@@ -26,7 +26,14 @@
               <li><a href="#">Subcategory 2.5</a></li>
             </ul>
           </li>
-          <li><a href="/login.html">Inicia sesion</a>
+          <li><a href="#">Inicia sesion</a>
+            <ul>
+              <li><a href="#">Subcategory 3.1</a></li>
+              <li><a href="#">Subcategory 3.2</a></li>
+              <li><a href="#">Subcategory 3.3</a></li>
+              <li><a href="#">Subcategory 3.4</a></li>
+              <li><a href="#">Subcategory 3.5</a></li>
+            </ul>
           </li>
           <li><a href="signup.html">Registrate</a>
             <ul>
@@ -37,7 +44,7 @@
               <li><a href="#">Subcategory 4.5</a></li>
             </ul>
           </li>
-          <li><a href="sube.html">Sube fotos</a>
+          <li><a href="#">Sube fotos</a>
             <ul>
               <li><a href="#">Subcategory 5.1</a></li>
               <li><a href="#">Subcategory 5.2</a></li>
@@ -52,6 +59,23 @@
         <h2>BASA2</h2>
         <h3>TIENDA DE DISCOS WENOS WENARDOS BACANOS FULL CORTE</h3>
       </section>
+
+      <form id="miFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+    
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+    
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" required><br>
+    
+        <button type="button" onclick="guardarYMostrar()">Guardar y Mostrar</button>
+      </form>
+    
+      <script src="script.js"></script>
+
+
       <section id="galeria">
         <div class="product">
           <img src="img/foto1.jpg" alt="Product 1">
