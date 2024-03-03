@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotolog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Aleo:ital@1&family=Almarai:wght@700&family=Fjalla+One&family=Rock+3D&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+        
+        <div class="registrar">
+            <h2>Agregar usuario</h2>
+            <form>
+              <div class="email">
+                <input type="email" id="correo">
+              </div>
+              <h2>Agregar contraseña</h2>
+              <div class="contraseña">
+                <input type="password" id="pass">
+              </div>
+            </form>
+          <button type="button" onclick="guardaDatos()">Registrar</button>
+          <button type="button" onclick="insertar()">Mostrar todos los usuarios</button>
+          <div id="tablas">
+            <div id="tablausuarios"></div>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
